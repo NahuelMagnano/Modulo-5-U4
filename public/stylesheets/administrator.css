@@ -1,0 +1,75 @@
+
+header{
+    height: 70px;
+}
+
+.contadmin{
+    margin-top: 100px;
+}
+
+h1{
+    font-weight: 400;
+}
+
+h6{
+    position: relative;
+    top: 2px;
+    font-weight:lighter;
+}
+
+.suplogin{
+    padding: 10px;
+    background-color: #990100;
+    color: #E8E8E8;
+    position: relative;
+    top: 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 300px;
+    margin: auto;
+    border: 1px solid #333333;
+}
+
+.login{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 550px;
+    margin: auto;
+    border: 1px solid #990100;
+    border-radius: 5px;
+}
+
+
+.uyc{
+    margin: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+}
+
+.botonform{
+    font-weight: lighter;
+}
+
+.errorlogin{
+    font-weight:normal ;
+    font-size: large;
+    position: relative;
+    top: -58px;
+    left: 20px;
+    width: 60px;
+    height: 20px;
+    display: flex;
+    color: #990100;
+}
+
+/* .cajaerror{
+    width: 50px;
+    background-color: #990100;
+} */
