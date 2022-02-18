@@ -69,7 +69,16 @@ h6{
     color: #990100;
 }
 
-/* .cajaerror{
-    width: 50px;
+.botlogout{
+    margin-left: 10px;
+    background-color: #333333;
+    border: 1px solid #333333;
+}
+
+.botlogout:hover{
     background-color: #990100;
-} */
+    color: #E8E8E8;
+    border: #333333;
+    transform: scale(1.1);
+    transition: 0.5s;
+}
