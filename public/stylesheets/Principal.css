@@ -321,7 +321,7 @@ li{
 .botonform:hover{
     background-color: #990100;
     color: #E8E8E8;
-    border: #333333;
+    border: 1px solid #333333;
     transform: scale(1.1);
     transition: 0.5s;
 }

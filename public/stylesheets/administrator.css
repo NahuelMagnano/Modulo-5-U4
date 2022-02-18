@@ -37,7 +37,7 @@ h6{
     justify-content: center;
     align-items: center;
     height: 300px;
-    width: 550px;
+    width: 450px;
     margin: auto;
     border: 1px solid #990100;
     border-radius: 5px;
@@ -58,27 +58,126 @@ h6{
 }
 
 .errorlogin{
+    position: relative;
+    left: 25px;
+    box-sizing: content-box;
+    width: 100%;
     font-weight:normal ;
     font-size: large;
-    position: relative;
-    top: -58px;
-    left: 20px;
-    width: 60px;
-    height: 20px;
-    display: flex;
     color: #990100;
 }
 
+
+
 .botlogout{
+    position: relative;
+    top: -146px;
+    left: 1370px;
+    width: 100px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-left: 10px;
-    background-color: #333333;
-    border: 1px solid #333333;
+    background-color: #990100;
 }
 
-.botlogout:hover{
-    background-color: #990100;
+.contenedoradminnoticias{
+    position: relative;
+    top: -180px;
+    margin: auto;
+    width: 1000px;
+    margin-top: 10px;
+    margin-bottom: 60px;
+}
+
+.msglog{
+    font-size: large;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40px;
     color: #E8E8E8;
-    border: #333333;
-    transform: scale(1.1);
-    transition: 0.5s;
+    background-color: #333333;
+    border: 2px solid #990100;
+    top: -90px;
+}
+
+.titnoticias{
+    position: relative;
+    left: 250px;
+    top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight:400;
+    height: 40px;
+    width: 500px;
+    border: 2px solid #990100;
+    border-radius: 5px;
+}
+
+
+
+.botagregar{
+    position: relative;
+    top: 2px;
+    left: 800px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 155px;
+    font-weight: lighter;
+    border: 2px solid #333333;
+
+}
+
+.iconoagregar{
+    font-size: 10px;
+}
+
+.contadminagregnoticias{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 800px;
+    height: 400px;
+}
+
+
+.formagregar{
+    position: relative;
+    top: -20px;
+    width: 700px;
+    height: 300px;
+}
+
+.tituagregar{
+    position: relative;
+    left: -80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    font-weight:400;
+    height: 40px;
+    width: 500px;
+    border: 2px solid #990100;
+    border-radius: 5px;
+}
+
+.erroragregar{
+    font-weight:normal ;
+    font-size: large;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    /* background-color: #990100; */
+    height: 30px;
+    display: flex;
+    position: relative;
+    left: -140px;
+    color: #990100;
 }
